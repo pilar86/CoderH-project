@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../style.css">
+
+    <title>PG Diseño de Interiores</title>
+</head>
+
+<body class="contacto" >
+    <header>
+        <div class="logo">    
+        <img src="../assets/img/logo.png" alt="logo pg">
+        <h1>PG Diseño de Interiores</h1>
+        </div>
+    </header>
+
+    <ul class="menu">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="./servicios.html">EQUIPO</a></li>
+        <li><a href="./galeria.html">GALERIA</a></li>
+        <li><a href="./servicios.html">SERVICIOS</a></li>
+        <li><a href="#">CONTACTO</a></li><br>
+    </ul>
+
+    <main> 
+        <h2>CONTACTO</h2>
+
+        <p>Completa el formulario y contanos sobre tu proyecto o idea.</p>
+
+        <form action="" method="POST" class="formulario">
+            <div class="form-row">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Ingresa tu nombre" 
+                name="nombre" required>
+            </div>
+
+            <div class="form-row">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="Ingresa tu apellido" 
+                name="apellido" required>
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Ingresa tu correo electrónico" 
+                name="email" required>
+            </div>
+
+            <fieldset class="legacy-form-row">
+                <legend>Tipo de Espacio</legend>
+                <input type="radio" name="tipologia" id="tipo1">
+                <label for="tipo1" class="radio-label">Vivienda</label>
+
+                <input type="radio" name="tipologia" id="tipo2" checked>
+                <label for="tipo2" class="radio-label">Comercial</label>
+
+                <input type="radio" name="tipologia" id="tipo3">
+                <label for="tipo3" class="radio-label">De Trabajo</label>
+
+            </fieldset>
+
+            <div class="form-row">
+                <label for="abstract">Dejanos tu consulta</label>
+                <textarea name="textarea" id="abstract"></textarea>
+            </div>
+
+            <div class="form-row">
+                <button type="reset">RESETEAR</button>
+                <button type="send">ENVIAR</button>
+            </div>
+
+            <div>
+                 Acepto recibir newsletter
+                  <input type="checkbox" name="aceptar" value="1">
+              </div>
+        
+
+
+        </form>
+    </main>
+
+    <footer>
+        <div class="icons">
+
+            <h3>REDES SOCIALES</h3>
+
+            <img src="../assets/img/icons8-facebook-32.png" alt="facebook">    
+            <img src="../assets/img/icons8-instagram-32.png" alt="instagram">
+            <img src="../assets/img/icons8-whatsapp-32.png" alt="whatsapp">
+            <img src="../assets/img/icons8-youtube-32.png" alt="youtube">
+
+        </div>
+    </footer>
+
+</body>
+</html>
