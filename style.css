@@ -20,12 +20,12 @@ body{
     align-items: center;
     padding: 25px;
     flex-wrap: wrap;
+    transition: 1s;
 }
 
 .logo img{
     height: 150px;
     margin-right: 40px;
-
 }
 
 h1{
@@ -38,6 +38,9 @@ h1{
     font-weight: lighter;
     letter-spacing: 8px;
     text-align: left;
+}
+.h1 span{
+    transition: 1.5s linear;
 }
 
 h2{
@@ -104,6 +107,9 @@ p{
 
 .menu li a:hover{
     background-color: black;
+    text-shadow: 0 0 10px white,
+    0 0 15px white,
+    0 0 20px white;
 }
 
 @media (max-width: 350px) {
@@ -287,12 +293,17 @@ footer{
     display: inline-block;
     justify-content: space-between;
     margin: 10px;
-    background-color:rgb(56, 56, 56);
+    background-color:rgb(30, 30, 30);
     border-radius: 10px;
     height: 40px;
     padding: 1px;
     margin-bottom: 20px;
     flex-wrap: wrap;
-    
- 
+}
+
+.icons:hover {
+    background-color: rgb(50, 50, 50);
+    text-shadow: 0 0 15px white,
+    0 0 20px white,
+    0 0 30px white;
 }
